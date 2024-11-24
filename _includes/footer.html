@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="offsite-links">
+    {% if site.footer.has_social %}
+      {% include social.html %}
+    {% endif %}
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      {{ site.footer.content | markdownify }}
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->

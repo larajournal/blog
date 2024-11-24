@@ -1,0 +1,89 @@
+/* ==========================================================================
+   0. Font Awesome by @fontawesome - https://fontawesome.com
+   License - https://fontawesome.com/license/free
+   ========================================================================== */
+@font-face {
+  font-family: 'FontAwesome';
+  src:
+    url('../fonts/fontawesome.ttf?471qre') format('truetype'),
+    url('../fonts/fontawesome.woff?471qre') format('woff'),
+    url('../fonts/fontawesome.svg?471qre#FontAwesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'FontAwesome' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-rss:before {
+  content: "\f09e";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-linkedin:before {
+  content: "\f08c";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+.fa-youtube:before {
+  content: "\f167";
+}
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+.fa-dribbble:before {
+  content: "\f17d";
+}
+.fa-reddit:before {
+  content: "\f1a1";
+}
+.fa-codepen:before {
+  content: "\f1cb";
+}
+.fa-medium:before {
+  content: "\f23a";
+}
+.fa-product-hunt:before {
+  content: "\f288";
+}
+.fa-gitlab:before {
+  content: "\f296";
+}
+.fa-quora:before {
+  content: "\f2c4";
+}
+.fa-patreon:before {
+  content: "\f3d9";
+}
+.fa-vimeo:before {
+  content: "\f40a";
+}
+.fa-dev:before {
+  content: "\f6cc";
+}

@@ -30,12 +30,10 @@ google_analytics: "G-3712TB0863"
 navigation:
   - text: Blogs Home
     url: /
-  - text: About Larajournal
+  - text: About LaraJournal
     url: https://larajournal.github.io
-  - text: Tags
-    url: /tags/
-  - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
+  - text: On GitHub
+    url: https://github.com/larajournal/larajournal
 
 # The shortname for your Disqus site to enable comments.
 disqus: larajournal

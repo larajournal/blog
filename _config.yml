@@ -26,6 +26,9 @@ favicon: images/favicon.png
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 google_analytics: "G-3712TB0863"
 
+# Yandex.Metrika counter
+yandex_metrika: "99021176"
+
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: Blogs Home
